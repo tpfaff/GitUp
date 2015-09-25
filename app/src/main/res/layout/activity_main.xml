@@ -1,11 +1,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"  tools:context=".MainActivity">
+
+    <include layout="@layout/language_tool_bar" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/repoRecycler"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_below="@+id/language_tool_bar"
+        />
 
     <ProgressBar
         android:id="@+id/progress_bar"
@@ -13,5 +18,7 @@
         android:layout_height="125dp"
         android:visibility="gone"
         />
+
+
 
 </RelativeLayout>

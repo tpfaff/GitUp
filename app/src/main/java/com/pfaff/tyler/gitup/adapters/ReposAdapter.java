@@ -47,6 +47,7 @@ public class ReposAdapter extends RecyclerView.Adapter<ReposAdapter.RepoViewHold
         String repoName = repo.getName();
         String repoDescription = repo.getDescription();
 
+
         holder.repoNameTextView.setText(repoName);
         holder.repoDescriptionTextView.setText(repoDescription);
         holder.repoStarCountTextView.setText(repo.getStargazersCount() + " stars");
@@ -76,7 +77,9 @@ public class ReposAdapter extends RecyclerView.Adapter<ReposAdapter.RepoViewHold
                     Item repo = repos.get(getAdapterPosition());
                     String ownerName = repo.getOwner().getLogin();
                     String repoName = repo.getName();
-                    showDetailsActivityListener.showDetailActivity(ownerName,repoName);
+                    String repoUrl = repo.getHtmlUrl();
+                    showDetailsActivityListener.openUrl(repoUrl);
+                   // showDetailsActivityListener.showDetailActivity(ownerName,repoName);
                 }
             });
         }

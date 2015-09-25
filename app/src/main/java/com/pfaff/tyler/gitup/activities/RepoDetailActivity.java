@@ -57,6 +57,8 @@ public class RepoDetailActivity extends AppCompatActivity implements Contributor
 
         ContributorsFetchCompletedListener listener = this;
         GitClient.fetchContributors(ownerName, repoName, listener);
+
+
     }
 
     @Override

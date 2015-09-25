@@ -5,4 +5,5 @@ package com.pfaff.tyler.gitup.callbacks;
  */
 public interface ShowDetailsActivityListener {
     public void showDetailActivity(String ownerName, String repoName);
+    public void openUrl(String url);
 }

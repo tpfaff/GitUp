@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Tyler\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\pre-dexed\release\jsr305-1.3.9-097b135bdba38a7624798cf52cc4551b5e87abb1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\pre-dexed\release\classes-7ae28873a50cb7b5676f77048827cf4ddec96dc5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tyler\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\pre-dexed\release\retrofit-1.9.0-a68e89f378ac6faf71d0e8292ef6af99d36a822c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\pre-dexed\release\classes-bf7d217a26a78c56661e79ad2e8f11a24693d823.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tyler\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\pre-dexed\release\picasso-2.5.2-20dc3f8b232d735a1dce107b9d9765c5ec231c9d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tyler\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\12.0\5bc66dd95b79db1e437eb08adba124a3e4088dc0\guava-12.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5bc66dd95b79db1e437eb08adba124a3e4088dc0">
+        <dex dex="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\pre-dexed\release\guava-12.0-8c808126088e9af5d635cb290564c03ab8bdfc53.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tyler\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\pre-dexed\release\butterknife-7.0.1-c50f7e01ef4667db8c1760a28ac8f3282ff27d60.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\pre-dexed\release\classes-6c872304c4abea22175b5654fdfaf876097205f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\pre-dexed\release\internal_impl-22.2.0-45217ad9e1f265933aaef6a0fdb21c368ae03a85.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\pre-dexed\release\classes-1ca4d89fce29c86b566afb177860a4f57ebcee9a.jar" />
+    </item>
+    <item
+        jar="C:\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\pre-dexed\release\support-annotations-23.0.1-0b647dca3be3ed2a5d5a3c2616b3fb3b066ae560.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\pre-dexed\release\classes-c7b47929e243c15f77bf6726b255aeb4c93af968.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tyler\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\Tyler\AndroidStudioProjects\GitUp\app\build\intermediates\pre-dexed\release\gson-2.3.1-d9a6130f82f0f4085f4b170c2d415d2e394e084e.jar" />
+    </item>
+
+</items>

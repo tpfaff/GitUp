@@ -16,7 +16,8 @@ import retrofit.http.QueryMap;
  */
 public interface GitApi {
 
-    //https://github.com/search?q=created:%3E=2015-07-11&sort=stars&order=desc&perpage=25&page=1
+    // https://github.com/search?q=created:%3E=2015-07-11&sort=stars&order=desc&perpage=25&page=1
+  //  https://api.github.com/search/repositories?q=language:Java&created%3A%3E%3D2015-09-17&sort=stars&perpage=25&page=1
 
 
 
@@ -27,4 +28,5 @@ public interface GitApi {
     public void getContributors(@Path("owner") String owner,
                                 @Path("repoName") String repoName,
                                 Callback<List<Contributor>> responseCallback);
+
 }

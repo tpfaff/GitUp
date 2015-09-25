@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="display_languages">
+        <item>All</item>
+        <item>C</item>
+        <item>C#</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>Javascript</item>
+        <item>Swift</item>
+        <item>objective-c</item>
+        <item>Python</item>
+        <item>PHP</item>
+        <item>Ruby</item>
+        <item>Scala</item>
+
+    </string-array>
+
+</resources>

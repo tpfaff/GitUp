@@ -28,7 +28,7 @@ public class GitClient {
      * Fetch the trending repos created in the last week
      * @param fetchCompletedListener required, sends response back to the listener implementer
      */
-    public static void fetchTrendingRepos(final RepoFetchCompletedListener fetchCompletedListener) {
+    public static void fetchTrendingRepos(String language,final RepoFetchCompletedListener fetchCompletedListener) {
         RestAdapter adapter = new RestAdapter.Builder().setLogLevel(RestAdapter.LogLevel.FULL).setEndpoint(API).build();
         GitApi api = adapter.create(GitApi.class);
 
@@ -37,7 +37,16 @@ public class GitClient {
 
         //Retrofit docs use guava's ImmutableMap
         //Order of params was not being respected without ImmutableMap
-        api.getTrendingRepositories(ImmutableMap.of("q=created:>", formattedDate, "sort", "stars", "order", "desc", "perpage", "25", "page", "1"), new Callback<TrendingReposResponse>() {
+        ImmutableMap<String,String> params;
+        if(language.equals("All")){
+            params = ImmutableMap.of("q=created:>", formattedDate,"sort", "stars", "perpage", "25", "page", "1");
+        }else{
+            params = ImmutableMap.of("q=language:"+language+"+"+"created:>", formattedDate,"sort", "stars","perpage", "25", "page", "1");
+
+           // params = ImmutableMap.of("q=l",language,"created:>", formattedDate,"sort", "stars", "perpage", "25", "page", "1");
+        }
+
+        api.getTrendingRepositories(params, new Callback<TrendingReposResponse>() {
             @Override
             public void success(TrendingReposResponse trendingReposResponse, Response response) {
                 fetchCompletedListener.successfulFetch(trendingReposResponse, response);
@@ -71,5 +80,9 @@ public class GitClient {
                 fetchCompletedListener.failedFetch(error);
             }
         });
+    }
+
+    public static void fetchWiki(){
+
     }
 }
